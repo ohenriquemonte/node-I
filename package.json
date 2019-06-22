@@ -1,27 +1,15 @@
 {
-	"name": "casadocodigo",
-	"version": "1.0.0",
-	"description": "Livraria Casa do Codigo",
-	"main": "server.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "nodemon server.js --ignore *.marko.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/ohenriquemonte/node-I.git"
-	},
-	"author": "Henrique Montenegro",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/ohenriquemonte/node-I/issues"
-	},
-	"homepage": "https://github.com/ohenriquemonte/node-I#readme",
-	"dependencies": {
-		"express": "4.16.3",
-		"marko": "4.13.4-1"
-	},
-	"devDependencies": {
-		"nodemon": "1.18.4"
-	}
+  "name": "casadocodigo",
+  "version": "1.0.0",
+  "description": "Livraria Casa do Codigo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Gabriel Leite",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.16.3"
+  }
 }
